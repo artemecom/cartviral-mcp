@@ -1,11 +1,14 @@
 # CartViral MCP Server
 
+[![smithery badge](https://smithery.ai/badge/mercury-promotion/CartViral_mcp)](https://smithery.ai/servers/mercury-promotion/CartViral_mcp)
+
 AI product videos for e-commerce, from any AI agent. [CartViral](https://cartviral.com) turns a product page into ready-to-post TikTok, Reels and Shorts clips. This hosted MCP server lets Claude, ChatGPT, Codex, Cursor and other agents import products, generate clips, fetch download links, browse brand affiliate offers and pitch brands.
 
 - **Endpoint:** `https://app.cartviral.com/mcp` (Streamable HTTP, hosted, nothing to install)
 - **Auth:** OAuth 2.1 (dynamic client registration, PKCE) or an API key
 - **Registry:** [`com.cartviral/cartviral`](https://registry.modelcontextprotocol.io/v0/servers?search=cartviral) in the official MCP Registry
 - **Docs:** https://cartviral.com/mcp
+- **Smithery:** https://smithery.ai/servers/mercury-promotion/CartViral_mcp
 - **Price:** free account with 48 credits; read-only tools cost nothing
 
 ## Connect
