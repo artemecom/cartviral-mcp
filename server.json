@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.cartviral/cartviral",
+  "title": "CartViral",
+  "description": "AI product videos for e-commerce: import products, generate TikTok/Reels clips, earn per sale.",
+  "version": "1.1.0",
+  "websiteUrl": "https://cartviral.com/mcp",
+  "repository": {
+    "url": "https://github.com/artemecom/cartviral-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.cartviral.com/mcp"
+    }
+  ]
+}
