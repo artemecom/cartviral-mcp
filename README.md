@@ -9,7 +9,8 @@ AI product videos for e-commerce, from any AI agent. [CartViral](https://cartvir
 - **Registry:** [`com.cartviral/cartviral`](https://registry.modelcontextprotocol.io/v0/servers?search=cartviral) in the official MCP Registry
 - **Docs:** https://cartviral.com/mcp
 - **Smithery:** https://smithery.ai/servers/mercury-promotion/CartViral_mcp
-- **Price:** free account with 48 credits; read-only tools cost nothing
+- **Price:** free account with 18 credits (3 AI clips), no card; read-only tools cost nothing. After your first purchase, the first agent connection adds 20 bonus credits (once per account)
+- **Clips:** photo montages, AI story reels and creator (UGC) clips where an AI creator talks to camera in their own voice, all vertical 9:16 and built from your real product photos
 
 ## Connect
 
@@ -61,10 +62,10 @@ Streamable HTTP, URL `https://app.cartviral.com/mcp`. Either let the client run 
 | `get_account` | Plan, credit balance, price of each clip type | 0 |
 | `import_products` | Import a Shopify catalog (up to 750 products) or one product page from Shopify, Amazon, Etsy and most sites | 0 |
 | `list_products` | Catalog with CartViral score (push / hold) | 0 |
-| `generate_clips` | Montage, AI story reel, ad creative or avatar reel of a product, 9:16 | 1 / 4 / 4 / 10 per clip |
+| `generate_clips` | Montage, AI story reel or creator (UGC) clip of a product, 9:16. `clip_type`: `montage`, `ai_story`, `avatar` (the creator clip); `ad` is kept for older integrations and makes the same AI clip as `ai_story` | 1 / 6 / 12 per clip (`ad`: 6) |
 | `list_clips` | Render status and download links (valid 24 hours) | 0 |
 | `list_offers`, `join_offer` | Creators: brand offers in CartViral Earn and your tracking link | 0 |
-| `bring_a_brand`, `list_pitches` | 3 AI clips of a brand's product and a page to send it; who opened it | 12 per pitch |
+| `bring_a_brand`, `list_pitches` | 3 AI clips of a brand's product and a page to send it; who opened it | 18 per pitch |
 
 Every tool declares `readOnlyHint`, `destructiveHint` and `openWorldHint`.
 
