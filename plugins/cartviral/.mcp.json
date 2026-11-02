@@ -1,0 +1,6 @@
+{
+  "cartviral": {
+    "type": "http",
+    "url": "https://app.cartviral.com/mcp"
+  }
+}

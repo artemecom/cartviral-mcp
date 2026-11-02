@@ -30,6 +30,14 @@ claude mcp add --transport http cartviral https://app.cartviral.com/mcp \
   --header "Authorization: Bearer YOUR_KEY"
 ```
 
+### Claude Code plugin
+This repository is also a Claude Code plugin marketplace:
+```bash
+/plugin marketplace add artemecom/cartviral-mcp
+/plugin install cartviral@cartviral
+```
+Then run `/mcp`, pick cartviral and choose Authenticate.
+
 ### Codex CLI
 `~/.codex/config.toml`:
 ```toml

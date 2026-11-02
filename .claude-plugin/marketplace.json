@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "cartviral",
+  "description": "CartViral plugin for Claude Code: AI product videos, photos and ads for e-commerce through the hosted CartViral MCP server",
+  "owner": {
+    "name": "CartViral",
+    "email": "support@cartviral.com"
+  },
+  "plugins": [
+    {
+      "name": "cartviral",
+      "description": "AI product videos, photos and ads for e-commerce through the hosted CartViral MCP server.",
+      "category": "productivity",
+      "source": "./plugins/cartviral",
+      "homepage": "https://cartviral.com/mcp"
+    }
+  ]
+}

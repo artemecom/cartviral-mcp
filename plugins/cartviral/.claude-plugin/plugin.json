@@ -1,0 +1,14 @@
+{
+  "name": "cartviral",
+  "description": "AI product videos, photos and ads for e-commerce: import products from a store or product link, make TikTok, Reels and Shorts clips, product photos, carousels, static ads and listing copy, and get download links. Uses the hosted CartViral MCP server (OAuth sign-in, credits from your CartViral account).",
+  "version": "1.2.0",
+  "author": {
+    "name": "CartViral",
+    "email": "support@cartviral.com",
+    "url": "https://cartviral.com"
+  },
+  "homepage": "https://cartviral.com/mcp",
+  "repository": "https://github.com/artemecom/cartviral-mcp",
+  "license": "MIT",
+  "keywords": ["ecommerce", "product-videos", "tiktok", "reels", "shorts", "ads", "ugc", "mcp"]
+}
