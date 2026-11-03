@@ -1,0 +1,10 @@
+{
+  "name": "cartviral",
+  "version": "1.2.0",
+  "description": "AI product videos, photos and ads for e-commerce: import products from a store or product link, make TikTok, Reels and Shorts clips, product photos, carousels, static ads and listing copy, and get download links.",
+  "mcpServers": {
+    "cartviral": {
+      "httpUrl": "https://app.cartviral.com/mcp"
+    }
+  }
+}

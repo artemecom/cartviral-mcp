@@ -38,6 +38,12 @@ This repository is also a Claude Code plugin marketplace:
 ```
 Then run `/mcp`, pick cartviral and choose Authenticate.
 
+### Gemini CLI
+```bash
+gemini extensions install https://github.com/artemecom/cartviral-mcp
+```
+The extension adds the hosted server (`gemini-extension.json`). Then run `/mcp auth cartviral` inside Gemini CLI, sign in to CartViral and approve access.
+
 ### Codex CLI
 `~/.codex/config.toml`:
 ```toml
